@@ -1,0 +1,212 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/footprint"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+        
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/textView4"
+            android:layout_marginTop="14dp"
+            android:text="@string/your_monthly_electricity_bill" />
+
+        <EditText
+            android:id="@+id/txtElectricityBill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textView2"
+            android:layout_toRightOf="@+id/textView3"
+            android:ems="10"
+            android:inputType="number" >
+
+            <requestFocus
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </EditText>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/txtOilBill"
+            android:layout_alignTop="@+id/txtOilBill"
+            android:text="@string/your_monthly_oil_bill" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView6"
+            android:layout_alignRight="@+id/textView4"
+            android:layout_below="@+id/textView6"
+            android:text="@string/less_than_4_hours" />
+
+        <EditText
+            android:id="@+id/txtFlightsA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txtMileage"
+            android:layout_alignRight="@+id/txtMileage"
+            android:layout_alignTop="@+id/textView7"
+            android:ems="10"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView7"
+            android:layout_alignRight="@+id/textView7"
+            android:layout_below="@+id/txtFlightsA"
+            android:text="@string/more_than_4_hours" />
+
+        <EditText
+            android:id="@+id/txtFlightsB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txtFlightsA"
+            android:layout_alignParentRight="true"
+            android:layout_alignRight="@+id/txtMileage"
+            android:layout_below="@+id/txtFlightsA"
+            android:ems="10"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView01"
+            android:layout_alignRight="@+id/TextView01"
+            android:layout_below="@+id/txtFlightsB"
+            android:text="@string/do_you_recycle_paper_" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignRight="@+id/textView2"
+            android:layout_below="@+id/txtElectricityBill"
+            android:text="@string/your_monthly_gas_bill" />
+
+        <EditText
+            android:id="@+id/txtGasBill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txtElectricityBill"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/textView3"
+            android:ems="10"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/txtOilBill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txtGasBill"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/txtGasBill"
+            android:ems="10"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/txtMileage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txtOilBill"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/txtOilBill"
+            android:ems="10"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView4"
+            android:layout_toLeftOf="@+id/txtOilBill"
+            android:text="@string/yearly_mileage_on_car" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/txtMileage"
+            android:text="@string/number_of_flights_in_the_past_year" />
+
+        <Button
+            android:id="@+id/btnCalc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView9"
+            android:text="@string/calculate" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txtFlightsB"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/textView8"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/radPaperN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/no" />
+
+            <RadioButton
+                android:id="@+id/radPaperY"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/yes" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView8"
+            android:layout_toLeftOf="@+id/radioGroup1"
+            android:text="@string/do_you_recycle_aluminium_and_tin_" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btnCalc"
+            android:layout_alignLeft="@+id/radioGroup1"
+            android:layout_alignParentRight="true"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/radTinN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/no" />
+
+            <RadioButton
+                android:id="@+id/RadTinY"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/yes" />
+
+        </RadioGroup>
+
+    </RelativeLayout>
+
+    </ScrollView>

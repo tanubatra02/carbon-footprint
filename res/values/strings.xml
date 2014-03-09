@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Carbon Footprint Calculator</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="calculate_your_carbon_foorprint">Calculate your carbon footprint</string>
+    <string name="calculate_your_carbon_footprint">Calculate Your Carbon Footprint</string>
+    <string name="your_monthly_electricity_bill">Your Monthly Electricity Bill</string>
+    <string name="your_monthly_gas_bill">Your Monthly Gas Bill</string>
+    <string name="your_monthly_oil_bill">Your Monthly Oil Bill</string>
+    <string name="yearly_mileage_on_car">Yearly Mileage on Car</string>
+    <string name="number_of_flights_in_the_past_year">Number Of Flights In The Past Year</string>
+    <string name="less_than_4_hours">Less than 4 hours</string>
+    <string name="more_than_4_hours">More than 4 hours</string>
+    <string name="do_you_recycle_paper_">Do you recycle paper?</string>
+    <string name="do_you_recycle_aluminium_and_tin_">Do you recycle aluminium and tin?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="calculate">Calculate</string>
+    <string name="your_carbon_foorprint_is">Your carbon foorprint is</string>
+    <string name="_0_0">0.0</string>
+    <string name="reduce_my_carbon_footprint">Reduce My Carbon Footprint</string>
+    <string name="footprint_level">Footprint Level</string>
+    <string name="average">Average</string>
+   	<string name="sometips"><b>1.Unplug:</b> Look around the room for a quick minute. How many appliances are unnecessarily charging or plugged in? Did you know that you can actually over-charge electronics? Get in the habit of unplugging small appliances and electronics when they are not in use.
+	\n\n<b>2. Power Down:</b> Do you have a tendency to leave your computer running at all hours of the day? Putting electronics in “sleep” mode or powering down when you’re not using them is an easy way to reduce your carbon footprint.
+	\n\n<b>3. Get Outdoors:</b> It’s too cold. It’s too hot. We know. There are still plenty of ways to get outdoors and get active. Consider picking up a winter sport or activity, such as skiing or hockey or hiking, where the apparel will keep you warm and the sustained activity will keep your core body temperature up.  In the summer months, you can swim, rollerblade or find a shady running path.  All these activities will keep you moving and you’ll be less tempted to sit in front of the TV or computer (a huge waste of energy)!  Your body will thank you, and so will the planet!
+	\n\n<b>4. Turn Off the Lights:</b>  We know you remember getting scolded by your parents for leaving the bedroom lights on as a child. As an adult, there’s no excuse! Be sure to turn off lights in unoccupied rooms and when you leave the house. In the daytime, try to utilize natural light as much as possible.  After all, a dose of Vitamin D can do the body (and mind) a world of good!
+	\n\n<b>5. Clean/Replace the Air Filters in Your Home:</b> Clean air filters mean that your heating/cooling systems work more efficiently. Ideally, your air filters should be changed every few months.
+	\n\n<b>6. Keep Doors and Windows Closed:</b> Keep that cold or hot air where it belongs – outside. Be sure your windows and doors are closed as much as possible, as well as adequately sealed.
+	\n\n<b>7. Invest in Energy Efficient Appliances:</b> Let’s face it: you’ve been looking for an excuse to re-do the kitchen, anyway!
+	\n\n<b>8. Keep the Thermostat at An Eco-Friendly Level:</b> Challenge yourself and your family to keep the thermostat set no lower than 78 degrees in the summertime and no higher than 68 degrees in winter.
+	\n\n<b>9. Switch Out Your Light Bulbs:</b> Energy-efficient light bulbs do make a difference! According to the EPA, if every household in the U.S. replaced a single light bulb with an Energy Star approved bulb, it would reduce greenhouse gas emissions by approximately 9 billion pounds each year. Let’s all do our part to reduce the effects of global warming!
+	</string>
+
+</resources>
